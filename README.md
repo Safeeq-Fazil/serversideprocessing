@@ -19,6 +19,7 @@ Publish the website in the given URL.
 
 PROGRAM :
 HTML and CSS code:
+````
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -111,7 +112,8 @@ def volumeofcuboid(request):
         context['breadth']=breadth
         context['height']=height       
         context['volume']=volume
-    return render(request,"myapp/area.html",context)
+    return render(request,"myapp/area.html",context
+    ````
 
 
 ## OUTPUT:
